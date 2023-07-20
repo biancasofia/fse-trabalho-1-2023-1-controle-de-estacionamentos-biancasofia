@@ -207,38 +207,6 @@ O servidor central tem as seguintes responsabilidades:
    2. Sensor de Passagem 2 seguido do 1: indica um carro que **desce** do 2º para o 1º andar;  
 
 
-## 4. Entrega e Critérios de Avaliação
-
-### Entrega:
-
-1. Repositório (no Github Classroom) incluindo o README com as instruções de execução (Para projetos em C/C++ é necessário incluir o Makefile);  
-2. Vídeo de aprox. 5 min mostrando o sistema em funcionamento (Mostrando o funcionamento em si e destacar partes do código fonte mais importantes).  
-
-A avaliação será realizada seguindo os seguintes critérios: 
-
-<center>
-Tabela 5 - Tabela de Avaliação
-</center>
-
-|   ITEM    |   DETALHE  |   VALOR   |
-|-----------|------------|:---------:|
-|**Servidor Central**    |       |       |
-|**Interface (Monitoramento)**  |  Interface gráfica (via terminal, web, etc) apresentando os dados descritos no item 3.2.  |   1,0   |
-|**Interface (Comandos)** | Mecanismo de acionar manualmente os modos descritos no item 3.2. |   1,0   |
-|**Monitoramento das Vagas**    |  Contabilização correta de vagas individualmente e por andar, e sinalização de lotação (Geral e por andar).  |   1,0   |
-|**Contabilização de Pagamentos**    |  Correta cobrança de ocupação do estacionamento por minuto.  |   1,0   |
-|**Servidores Distribuídos**    |       |       |
-|**Monitoramento das Vagas**    |  Detecção de ocupação de vagas indivisualmente.  |   1,0   |
-|**Controle das Cancelas**    |  Detecção de presença de carros, aguardando, abertura e fechamento correto das cancelas.  |   1,0   |
-|**Sensor de Passagem de Carros** |  Detecção da passagem de carros entre os andares indentificando a direção. |   1,0  |
-|**Geral**    |       |       |
-|**Comunicação TCP/IP**  |   Correta implementação de comunicação entre os servidores usando o protocolo TCP/IP. Re-estabelecimento de conexão caso qualquer dos serviços caia. |   1,0   |
-|**Persistência dos serviços**  |  Conexão automática entre os serviços (independente da ordem de inicialização) e re-estabelecimento de conexão caso qualquer dos serviços caia. |   1,0   |
-|**Qualidade do Código / Execução** |   Utilização de boas práticas como o uso de bons nomes, modularização e organização em geral, bom desempenho da aplicação sem muito uso da CPU. |  1,5 |
-|**Pontuação Extra** |   Qualidade e usabilidade acima da média. |   0,5   |  
-
-## 5. Referências
-
 ### Bibliotecas em Python
 
 - gpiozero (https://gpiozero.readthedocs.io)
